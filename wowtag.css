@@ -1,0 +1,157 @@
+div.wow-character 
+{
+	display: block;
+	vertical-align: top;
+	color: white;
+	margin-top: 5px;
+	padding-top: 5px;
+	text-shadow:#666 1px 1px 0px;
+	/*background-color:rgba(0,0,0,0.33);*/
+	/*-webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;*/
+	position:relative;
+	float:left;
+	
+}
+
+a.wow-link
+{
+	padding:4px;
+	display:block;
+	text-decoration:none;
+}
+
+div.wow-load
+{
+	width:64px;
+	height:64px;
+	margin:auto;
+	background: url(img/load.gif) 0 0 no-repeat;
+}
+
+img.wow-avatar
+{
+	border: 0px;
+	display: block;
+	height: 47px;
+	left: 1px;
+	margin: 4px;
+	position: absolute;
+	top: 1px;
+	width: 47px;
+	z-index: 5;
+}
+
+span.wow-av-top
+{
+	border: 0px;
+	display: block;
+	height: 49px;
+	left: 0px;
+	margin: 4px;
+	position: absolute;
+	top: 0px;
+	width: 49px;
+	z-index: 10;
+	
+}
+
+span.wow-av-top-off
+{
+	background: url(img/inventory-slots.png) -49px 0;
+}
+
+span.wow-av-top-on
+{
+	background: url(img/inventory-slots.png) -98px 0;
+}
+
+div.wow-name 
+{
+	border: 0px;
+	/*color: white;*/
+	display: block;
+	float: left;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	height: 49px;
+	letter-spacing: -0.05em;
+	line-height: 49px;
+	margin-top: -5px;
+	padding-left: 60px;
+	padding-top: 0px;
+	position: relative;
+}
+
+div.wow-title-guild 
+{
+	float:left;
+	padding-left:11px;
+	padding-top:0px;
+}
+
+div.wow-title
+{
+	/*color: #e0e0e0;*/
+	font-size:14px;
+	line-height:20px;
+}
+
+div.wow-guild
+{
+	/*color: #FFB100;*/
+	font-size:14px;
+}
+
+div.wow-under-name
+{
+	clear: both;
+	display: block;
+	margin: 4px 0px 0px;
+	padding: 0;
+	font-family: Arial, Verdana, sans-serif;
+	font-size:14px;
+}
+
+
+
+.color-c1,  .color-c1 a { color: #c69b6d !important; } /* warrior */
+.color-c2,  .color-c2 a { color: #f48cba !important; } /* paladin */
+.color-c3,  .color-c3 a { color: #aad372 !important; } /* hunter */
+.color-c4,  .color-c4 a { color: #fff468 !important; } /* rogue */
+.color-c5,  .color-c5 a { color: #f0ebe0 !important; } /* priest */
+.color-c6,  .color-c6 a { color: #c41e3b !important; } /* death knight */
+.color-c7,  .color-c7 a { color: #2359ff !important; } /* shaman */
+.color-c8,  .color-c8 a { color: #68ccef !important; } /* mage */
+.color-c9,  .color-c9 a { color: #9382c9 !important; } /* warlock */
+.color-c11, .color-c11 a { color: #ff7c0a !important; } /* druid */
+
+
+.alliance , .alliance a { color: #0078FF !important; }
+.horde , .horde a { color: #B30000 !important; }
+
+span.wow-level 
+{
+	font-weight:bolder;
+}
+
+div.wow-button
+{
+	float:right;
+	margin:4px;
+	display:block;
+	height:9px;
+	width:9px;
+}
+
+div.wow-button-off
+{
+	background: url(img/goto-fansite.gif) 0 0 no-repeat;
+}
+
+div.wow-button-on
+{
+	background: url(img/goto-fansite.gif) 0 -21px no-repeat;
+}
